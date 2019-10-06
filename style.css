@@ -9,3 +9,39 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: sfc-astra
 Template: astra
 */
+
+@font-face {
+  font-family: Antonellie;
+  src: url(https://slowfashionchallenge.com/wp-content/themes/astra-child/fonts/AntonellieCalligraphyDemo.ttf);
+  font-weight: normal;
+}
+
+h1 {
+  font-family: 'Antonellie', serif;
+  text-align: right;
+  text-transform: inherit;
+}
+
+.main-title {
+  padding-right: 2rem;
+}
+
+#footer-title h4,
+#sb_instagram .sb_instagram_header h3 {
+  font-family: 'Antonellie', serif;
+  text-transform: capitalize;
+}
+
+@media (min-width:768px) {
+  h1.main-title {
+    padding-right: 0;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  .h-return {
+    display: none;
+  }
+}
