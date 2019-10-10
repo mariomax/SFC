@@ -48,7 +48,7 @@ a.footer-credits {
   color: #C9E8E3;
 }
 
-@media (min-width:768px) {
+@media (min-width: 768px) {
   h1.main-title {
     padding-right: 0;
   }
@@ -57,7 +57,7 @@ a.footer-credits {
     text-align: center;
   }
 
-  .h-return {
+  .span-return {
     display: none;
   }
 }
