@@ -16,8 +16,7 @@ Template: astra
   font-weight: normal;
 }
 
-h1 {
-  font-family: 'Antonellie', serif;
+#header-title h1 {
   text-align: right;
 }
 
@@ -25,9 +24,11 @@ h1 {
   padding-right: 2rem;
 }
 
+h1,
 h2,
 h3,
 #footer-title h4,
+#footer-contact h4,
 #sb_instagram .sb_instagram_header h3 {
   font-family: 'Antonellie', serif;
 }
