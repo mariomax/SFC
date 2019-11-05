@@ -33,6 +33,10 @@ h3,
   font-family: 'Antonellie', serif;
 }
 
+.home-list .elementor-widget-container .elementor-text-editor ul {
+  margin: 0 0 1.5em 2em;
+}
+
 #sb_instagram .sbi_follow_btn a {
   background: #0077b5;
 }
@@ -50,22 +54,6 @@ a.footer-credits {
   color: #C9E8E3;
 }
 
-@media (max-width: 767px) {
-  #blog-roll article {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-  }
-
-  #blog-roll article .elementor-post__text {
-    padding-top: 1rem;
-  }
-}
-
 @media (min-width: 768px) {
   h1.main-title {
     padding-right: 0;
@@ -77,5 +65,39 @@ a.footer-credits {
 
   .span-return {
     display: none;
+  }
+
+  .home-list .elementor-widget-container .elementor-text-editor ul {
+    margin: 0 0 1.5em 4em;
+  }
+
+  /* Blog edits */
+  .ast-separate-container .ast-article-post {
+    padding: 0 2.4em 2em; 
+  }
+
+  article.post .blog-layout-1 .post-content.ast-col-md-12 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+
+  article.post .blog-layout-1 .post-content.ast-col-md-12 .post-thumb.ast-col-md-12 {
+    max-width: 33%;
+    padding-right: 1.5rem;
+  }
+
+  .ast-separate-container .entry-header {
+    margin-top: auto;
+  }
+}
+
+@media (min-width: 1200px) {
+  .ast-separate-container .ast-article-post {
+    padding: 0 4em 2em; 
   }
 }
