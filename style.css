@@ -37,6 +37,11 @@ h3,
   margin: 0 0 1.5em 2em;
 }
 
+p.read-more {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
 #sb_instagram .sbi_follow_btn a {
   background: #0077b5;
 }
@@ -73,7 +78,7 @@ a.footer-credits {
 
   /* Blog edits */
   .ast-separate-container .ast-article-post {
-    padding: 0 2.4em 2em; 
+    padding: 0 2.4em 2em;
   }
 
   article.post .blog-layout-1 .post-content.ast-col-md-12 {
@@ -98,6 +103,6 @@ a.footer-credits {
 
 @media (min-width: 1200px) {
   .ast-separate-container .ast-article-post {
-    padding: 0 4em 2em; 
+    padding: 0 4em 2em;
   }
 }
